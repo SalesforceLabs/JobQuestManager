@@ -1,0 +1,19 @@
+{
+  "packageDirectories": [
+    {
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
+      "path": "force-app",
+      "default": true,
+      "package": "JobQuest Manager",
+      "versionDescription": ""
+    }
+  ],
+  "name": "Job Manager",
+  "namespace": "jobquest",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "61.0",
+  "packageAliases": {
+    "JobQuest Manager": "0HodM0000000F3tSAE"
+  }
+}

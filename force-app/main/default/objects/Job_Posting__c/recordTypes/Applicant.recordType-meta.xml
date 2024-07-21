@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Applicant</fullName>
+    <active>false</active>
+    <label>Applicant</label>
+    <picklistValues>
+        <picklist>Job_Type__c</picklist>
+        <values>
+            <fullName>Full time</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Part time</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Years_of_Experience__c</picklist>
+        <values>
+            <fullName>%3C1 Year</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%3E5 Years</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1-2 Years</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2-3 Years</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3-4 Years</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4-5 Years</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>
